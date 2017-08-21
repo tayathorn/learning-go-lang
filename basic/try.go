@@ -2,28 +2,26 @@ package main
 
 import "fmt"
 
-const name = "Hello"
-
 func main() {
-	// variable type
-	/*============================================*/
+	/*============== Loop ==============*/
+	// for i := 1; i < 10; i++ {
+	// 	fmt.Println(i)
+	// }
+
+	//--------- or ----------
 	// i := 1
-	// f := 1.0
-	// s := "Hello"
-	// b := true
+	// for i < 10 {
+	// 	fmt.Println(i)
+	// 	i++
+	// }
 
-	// fmt.Printf("Type %T has value %d\n", i, i)
-	// fmt.Printf("Type %T has value %f\n", f, f)
-	// fmt.Printf("Type %T has value %s\n", s, s)
-	// fmt.Printf("Type %T has value %t\n", b, b)
-	/*============================================*/
-
-	// fmt.Printf("%T => %v\n", name, name)
-
-	/*============== Group Variable ==============*/
-	i, j := 1, 2
-
-	fmt.Printf("%T => %v\n", i, i)
-	fmt.Printf("%T => %v\n", j, j)
+	//--------- or ----------
+	i := 0
+	for {
+		fmt.Println("GGGG")
+		if i++; i > 10 {
+			break
+		}
+	}
 	/*============================================*/
 }

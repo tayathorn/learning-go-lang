@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const name = "Hello"
+
 func main() {
 	// variable type
 	i := 1
@@ -13,4 +15,6 @@ func main() {
 	fmt.Printf("Type %T has value %f\n", f, f) //float
 	fmt.Printf("Type %T has value %s\n", s, s) //string
 	fmt.Printf("Type %T has value %t\n", b, b) //boolean
+
+	fmt.Printf("%T => %v\n", name, name)
 }

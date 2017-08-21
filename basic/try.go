@@ -3,25 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	/*============== Loop ==============*/
-	// for i := 1; i < 10; i++ {
-	// 	fmt.Println(i)
-	// }
+	/*============== Slice =======================*/
 
-	//--------- or ----------
-	// i := 1
-	// for i < 10 {
-	// 	fmt.Println(i)
-	// 	i++
-	// }
+	var datas = make([]string, 3)
+	datas[0] = "Zero"
+	datas[1] = "One"
+	datas[2] = "Two"
 
-	//--------- or ----------
-	i := 0
-	for {
-		fmt.Println("GGGG")
-		if i++; i > 10 {
-			break
-		}
-	}
+	fmt.Println(datas[:])
 	/*============================================*/
 }
